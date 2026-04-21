@@ -1,0 +1,29 @@
+{
+  "name": "intro-to-backend",
+  "version": "1.0.0",
+  "description": "totorial for backend",
+  "homepage": "https://github.com/priyansh9936905290-ux/intro-to-backend#readme",
+  "bugs": {
+    "url": "https://github.com/priyansh9936905290-ux/intro-to-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyansh9936905290-ux/intro-to-backend.git"
+  },
+  "license": "ISC",
+  "author": "priyansh",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.5.0",
+    "nodemon": "^3.1.14"
+  }
+}
